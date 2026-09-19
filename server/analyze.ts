@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 import { zodResponseFormat } from "openai/helpers/zod";
-import { AnalyzeRequestSchema, AnalyzeResponseSchema } from "./schema";
+import { AnalyzeRequestSchema, AnalyzeResponseSchema } from "./schema.js";
 import type { ApiAnalyzeResponse, ApiErrorResponse } from "../src/types/api";
 
 const SYSTEM_PROMPT = `You are a spending analyst for LEAKS, a personal finance product.

@@ -1,4 +1,4 @@
-import { analyzeTransactions } from "../server/analyze";
+import { analyzeTransactions } from "../server/analyze.js";
 
 export async function POST(request: Request) {
   try {
