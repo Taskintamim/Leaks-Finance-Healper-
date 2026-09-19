@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import { zodResponseFormat } from "openai/helpers/zod";
 import { AnalyzeRequestSchema, AnalyzeResponseSchema } from "./schema.js";
-import type { ApiAnalyzeResponse, ApiErrorResponse } from "../src/types/api";
+import type { ApiAnalyzeResponse, ApiErrorResponse } from "../src/types/api.js";
 
 const SYSTEM_PROMPT = `You are a spending analyst for LEAKS, a personal finance product.
 Currency is BDT (৳) unless the data clearly uses another currency.
